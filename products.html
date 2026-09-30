@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Products — Tongling Fulu Weaving Co., Ltd.</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="container nav"><div class="logo">Tongling <span>Fulu</span> Weaving Co., Ltd.</div><nav><a class="navlink" href="index.html">Home</a><a class="navlink active" href="products.html">Products</a><a class="navlink" href="about.html">About Us</a><a class="navlink" href="contact.html">Contact</a></nav></div></header>
+<section><div class="container">
+  <h2 class="sec-title">Our Fabrics</h2>
+  <p class="sec-sub">Click a fabric to view specifications. Samples available on request.</p>
+  <div class="filters" id="filters"></div>
+  <div class="p-grid" id="p-grid"></div>
+</div></section>
+
+<div class="modal" id="modal">
+  <div class="box">
+    <button class="close" onclick="closeModal()">×</button>
+    <img id="m-img" src="" alt="">
+    <div class="body" id="m-body"></div>
+  </div>
+</div>
+<footer><div class="container"><div>© 2026 Tongling Fulu Weaving Co., Ltd. — Tongling, Anhui, China</div><div>Pure Linen · Linen Blends · Home Textile</div></div></footer>
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+<script>renderProducts("all");</script>
+</body></html>
